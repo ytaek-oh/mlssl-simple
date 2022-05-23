@@ -92,7 +92,7 @@ python train_pseudo_label.py --eval-only True --weights {PATH_TO_CHECKPOINT}
 | MeanTeacher* | 32.55 +- 1.48 | 39.62 +- 1.66 |
 | Supervised  | 19.6 | 27.3 |
 | PseudoLabel | 24.7 | 30.0 |
-| MeanTeacher | 25.5 | 34.8 |
+| MeanTeacher | 25.5 | 34.1 |
 
 *: Performances reported in [UPS paper](https://arxiv.org/abs/2101.06329).
 
