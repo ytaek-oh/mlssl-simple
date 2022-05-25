@@ -90,12 +90,13 @@ python train_pseudo_label.py --eval-only True --weights {PATH_TO_CHECKPOINT}
 | Supervised*  | 18.36 +- 0.65 | 28.84 +- 1.68 |
 | PseudoLabel* | 27.44 +- 0.55 | 34.84 +- 1.88 |
 | MeanTeacher* | 32.55 +- 1.48 | 39.62 +- 1.66 |
-| Supervised  | 19.6 | 27.3 |
-| PseudoLabel | 24.7 | 30.0 |
-| MeanTeacher | 25.5 | 34.1 |
+| Supervised  | 19.4 +- 0.2 | 28.9 +- 1.2 |
+| PseudoLabel | 24.8 +- 0.4 | 29.9 +- 0.9 |
+| MeanTeacher | 23.4 +- 1.5 | 33.1 +- 0.7 |
 
-*: Performances reported in [UPS paper](https://arxiv.org/abs/2101.06329).
+- *: Performances reported in [UPS paper](https://arxiv.org/abs/2101.06329).
 
+- For our results, we report the mean and std of mAP values from three independent trials with different random seeds (seed: [1, 2, 3]).
 
 ### Current issue: reproducing mAP performance of baseline SSL methods reported in the UPS paper above.  
 

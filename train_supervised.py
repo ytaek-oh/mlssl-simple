@@ -109,6 +109,7 @@ def _get_experiment_name(args):
 if __name__ == "__main__":
     args = default_argument_parser().parse_args()
     args.algo_name = "Supervised"  # set algorithm name
+    args.num_epochs = 90  # for supervised, train for 90 epochs
     args.dataset = "voc"
     args.output_dir = os.path.join(args.output_dir, _get_experiment_name(args))
     default_setup(args)
